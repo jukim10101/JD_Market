@@ -12,11 +12,12 @@
 	<h1>Login to join JDM</h1>
 	<form action = "loginCheck.jsp" method = "POST">
 
-		ID: <input type = "text" name = "cID"><br></br>
-		Password: <input type = "text" name = "password"><br></br>
+		ID: <input type = "text" name = "id"><br />
+		Password: <input type = "text" name = "password"><br />
 		<input type = "submit" value="login"/>
-		<input type = "button" value="회원가입"/>
+		
 
 	</form>
+	<input type = "button" value="회원가입"/>
 </body>
 </html>
