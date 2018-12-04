@@ -45,12 +45,13 @@
 		checkPwd = rs.getString("Pass_word");
 	}
 	if(checkPwd.equals(password)) {
-		System.out.println("<script>");
-		System.out.println("<script>alert('로그인 되었습니다.')");
-		System.out.println("location.href=loginCheck.jsp'");
-		System.out.println("</script>");
 		
+		out.println("<script>");
+		out.println("<script>alert('로그인 되었습니다.')");
+		out.println("location.href=loginCheck.jsp'");
+		out.println("</script>");
 		
+		//response.sendRedirect(".jsp");
 		
 		
 	}else{

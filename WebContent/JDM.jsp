@@ -18,6 +18,6 @@
 		
 
 	</form>
-	<input type = "button" value="회원가입"/>
+	<input type = "button" value="회원가입" onclick="location.href='JoinForm.jsp'"/>
 </body>
 </html>
